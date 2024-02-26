@@ -1,0 +1,8 @@
+<div class="shortcut-link">
+    
+    <a *ngFor="let shortcut of shortcuts; let i=index;"  href="">
+        <img [src]="shortcut.img" alt="">
+        <p>{{shortcut.text}}</p>
+    </a>
+</div>
+

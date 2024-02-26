@@ -1,0 +1,8 @@
+<div class="online-list"
+    *ngFor="let person of people"
+>
+    <div class="online">
+        <img [src]="person.img">
+    </div>
+    <p>{{person.name}}</p>
+</div>
